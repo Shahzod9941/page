@@ -44,21 +44,34 @@
     opacity: 80%;
     position: relative;
     top: 50px;
+    margin-bottom: 20px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
 }
-
+#about{
+    background: gray;
+    padding: 20px;
+    opacity: 90%;
+    position: relative;
+    top: 80px;
+}
+.te{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
 .pages-header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
 }
-.footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    color: white;
-    background: gray;
-    width: 100%;
+
+.progress-bar{
+    width: 50%
 }
 
 body{
